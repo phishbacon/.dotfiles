@@ -4,6 +4,8 @@
 
 # except
 !.gitignore
+!.bash_profile
+!.bashrc
 !ghostty
 !ghostty/**
 !nvim
