@@ -1,0 +1,12 @@
+# ignore everything
+*/
+*
+
+# except
+!.gitignore
+!ghostty
+!ghostty/**
+!nvim
+!nvim/**
+!xremap
+!xremap/**

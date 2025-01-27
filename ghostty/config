@@ -1,0 +1,18 @@
+theme = tokyonight_night
+
+# splitting
+keybind = ctrl+shift+h=new_split:left
+keybind = ctrl+shift+l=new_split:right
+keybind = ctrl+shift+j=new_split:down
+keybind = ctrl+shift+k=new_split:up
+
+keybind = alt+h=goto_split:left
+keybind = alt+l=goto_split:right
+keybind = alt+j=goto_split:bottom
+keybind = alt+k=goto_split:top
+
+# tabs
+keybind = ctrl+alt+t=new_tab
+keybind = alt+p=previous_tab
+keybind = alt+n=next_tab
+

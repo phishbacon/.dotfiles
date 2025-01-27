@@ -1,0 +1,9 @@
+[Unit]
+Description=Key Remapping Service
+
+[Service]
+ExecStart=xremap /home/christian/.config/xremap/config.yml
+Restart=always
+
+[Install]
+WantedBy=default.target

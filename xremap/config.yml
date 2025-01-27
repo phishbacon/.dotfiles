@@ -1,0 +1,5 @@
+modmap:
+  - name: Caps Lock => Escape And Back Again
+    remap:
+      CapsLock: Esc
+      Esc: CapsLock
