@@ -11,7 +11,7 @@ return {
     "L3MON4D3/LuaSnip",
     "saadparwaiz1/cmp_luasnip"
   },
-  config = function ()
+  config = function()
     local cmp = require("cmp")
     local cmp_nvim_lsp = require("cmp_nvim_lsp")
     local capabilities = vim.tbl_deep_extend(
@@ -38,7 +38,7 @@ return {
     cmp.setup({
       snippet = {
         expand = function(args)
-          require'luasnip'.lsp_expand(args.body)
+          require 'luasnip'.lsp_expand(args.body)
         end,
       },
       mapping = cmp.mapping.preset.insert({
@@ -51,6 +51,16 @@ return {
         { name = "luasnip" },
         { name = "buffer" },
       }),
+    })
+    vim.diagnostic.config({
+      float = {
+        focusable = false,
+        style = "minimal",
+        border = "rounded",
+        source = "always",
+        header = "",
+        prefix = "",
+      }
     })
   end
 }

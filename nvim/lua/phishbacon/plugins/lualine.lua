@@ -6,8 +6,8 @@ return {
       options = {
         theme = "nightfly",
         disabled_filetypes = {
-          statusline = {"neo-tree"},
-          winbar = {"neo-tree"}
+          statusline = { "neo-tree" },
+          winbar = { "neo-tree" }
         }
       }
     })
