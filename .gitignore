@@ -8,7 +8,5 @@
 !.bashrc
 !ghostty
 !ghostty/**
-!nvim
-!nvim/**
 !xremap
 !xremap/**
