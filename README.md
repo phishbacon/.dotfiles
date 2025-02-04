@@ -17,7 +17,8 @@ sudo systemctl start xremap.service
 ```
 ### Mac
 
+```bash
 Somehow link ghostty to ~/.config/ghostty
 Hardlink .zprofile to ~/.zprofile
 Hardlink .zshrc to ~/.zshrc
-
+```
