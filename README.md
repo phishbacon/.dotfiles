@@ -17,10 +17,7 @@ sudo systemctl start xremap.service
 ```
 ### Mac
 
-These commands have not been verified on Mac.
-```bash
-cp -lR ghostty ~/.config
-cp -l .zprofile ~/
-cp -l .zshrc ~/
-```
+Somehow link ghostty to ~/.config/ghostty
+Hardlink .zprofile to ~/.zprofile
+Hardlink .zshrc to ~/.zshrc
 
