@@ -119,6 +119,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export GOPATH=$HOME/Development/go
+export PATH=$PATH:/usr/local/go/bin
 
 # pnpm
 export PNPM_HOME="/home/christian/.local/share/pnpm"
