@@ -1,4 +1,4 @@
-theme = tokyonight_night
+theme = Tokyonight Night
 
 # splitting
 keybind = ctrl+shift+h=new_split:left
