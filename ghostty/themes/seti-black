@@ -1,0 +1,43 @@
+# ================================
+#  Seti Black
+# ================================
+background = #000000
+foreground = #d7d7d7
+cursor-color = #ff8801
+selection-background = #444444
+# ANSI Colors (normal)
+# black
+palette = 0=#000000
+# red (keywords)
+palette = 1=#f92672
+# green (functions/classes)
+palette = 2=#a6e22e
+# yellow (strings)
+palette = 3=#e6db74
+# blue (types/library)
+palette = 4=#66d9ef
+# magenta (constants)
+palette = 5=#ae81ff
+# cyan (object variables)
+palette = 6=#61afef
+# white
+palette = 7=#d7d7d7
+# ANSI Colors (bright)
+# bright black (whitespace)
+palette = 8=#3b3a32
+# bright red
+palette = 9=#f92672
+# bright green
+palette = 10=#a6e22e
+# bright yellow
+palette = 11=#e6db74
+# bright blue
+palette = 12=#66d9ef
+# bright magenta (embedded strings)
+palette = 13=#c678dd
+# bright cyan
+palette = 14=#61afef
+# bright white
+palette = 15=#f8f8f0
+cursor-style = block
+bold-is-bright = true

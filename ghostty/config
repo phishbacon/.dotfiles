@@ -1,4 +1,4 @@
-theme = Tokyonight Night
+theme = seti-black
 
 # splitting
 keybind = ctrl+shift+h=new_split:left
